@@ -111,6 +111,13 @@
     padding: 0;
 
 }
+.trending-today {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #FDFAF6;
+  margin-left: 80px;
+  justify-content: space-between;
+}
 .slider{
 	height:270px;
 	width: 100%;
@@ -12295,26 +12302,7 @@ header.header-one.style-two.header--sticky {
   }
 }
 
-.has-dropdown::after {
-  position: absolute;
-  content: "\f078";
-  right: -22px;
-  top: 53%;
-  transform: translateY(-50%);
-  font-weight: 400;
-  color: #111032;
-  font-family: "Font Awesome 6 Pro";
-  font-weight: 300;
-  font-size: 14px;
-}
-.has-dropdown:hover::after {
-  color: var(--color-primary);
-  content: "\f077";
-}
-.has-dropdown.menu-item-open::after {
-  color: var(--color-primary);
-  content: "\f077";
-}
+
 
 .submenu.parent-nav > li {
   margin: 6px 0;
@@ -12360,27 +12348,7 @@ header.header-one.style-two.header--sticky {
   border-radius: 2px;
 }
 
-.has-dropdown.mega-menu::after {
-  display: none;
-}
-.has-dropdown.mega-menu > a {
-  position: relative;
-}
-.has-dropdown.mega-menu > a::after {
-  position: absolute;
-  content: "\f078";
-  right: -22px;
-  top: 53%;
-  transform: translateY(-50%);
-  font-weight: 400;
-  color: #111032;
-  font-family: "Font Awesome 6 Pro";
-  font-weight: 300;
-  font-size: 14px;
-}
-.has-dropdown.mega-menu.menu-item-open > a::after {
-  content: "\f077";
-}
+
 
 @media only screen and (max-width: 1199px) {
   .nav-area {
@@ -14765,7 +14733,7 @@ header .rts-btn {
   padding-right: 70px;
 }
 @media only screen and (max-width: 767px) {
-  .service-and-price-table .service-price-single.head .price-area {
+  .service-and-price-table .service-price-single.head .price.price-area {
     padding-right: 0;
   }
 }
