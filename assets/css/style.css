@@ -98,6 +98,42 @@
   --h5: 24px;
   --h6: 18px;
 }
+/* appointment.html */
+.medisea-footer{
+	background-color: #F1F1FF;
+	
+}
+button.rts-btn.btn-primary {
+    margin-top: 10px;
+}
+
+.order{
+	font-family: LatoBold;
+    font-size: 24px;
+    color: #151b39;
+    margin: -1px;
+    padding-left: 125px;
+	pa
+}
+.products {
+padding-left: 125px;
+}
+.cart1{
+    padding: 11px 12px 14px;
+    margin: 0;
+    position: relative;
+}
+.cart2{
+	max-width: 60px;
+}
+.products {
+    float: left;
+    width: 60px;
+    padding: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+}
 
 * {
   box-sizing: border-box;
@@ -129,6 +165,11 @@
 	height:270px;
 	width:495px;
 	margin: 5px;
+}
+.btn-outline-success{
+	width: 50%;
+	line-height: 2.5;
+	font-size: 15px;
 }
 
 html {
@@ -8068,6 +8109,7 @@ Background Image
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
+	mar
 }
 
 .bg_image--1 {
@@ -12793,7 +12835,7 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   border: 1px solid var(--color-primary-gym);
   color: var(--color-primary-gym);
 }
-.gym-home .mobile-menu-main .buttons-area .rts-btn.btn-primary {
+.gym-home .mobile-menu-main .buttons-area .rts-btn.primary {
   background: var(--color-primary-gym) !important;
   color: #FFFFFF;
 }
@@ -13565,14 +13607,15 @@ header.header-three .sub-dropdown .submenu.third-lvl.base {
   left: 28px;
 }
 
-@media (min-width: 992px) {
+ @media (min-width: 992px) {
   .col-lg-five {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 auto;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
     width: 20%;
-  }
+  } 
+	 
 }
 .single-banner-feature {
   text-align: center;
@@ -14358,7 +14401,7 @@ header .rts-btn {
 }
 
 .container {
-  max-width: 1310px;
+  max-width: 1690px;
   margin: auto;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1599px) {
@@ -14464,6 +14507,7 @@ header .rts-btn {
 .bg-light {
   background-color: #F1F1FF !important;
   border-radius: 10px;
+margin-top: 30px;
 }
 
 .swiper-container-h2 {
@@ -15797,6 +15841,8 @@ header .rts-btn {
 .request-appoinemnt-area-main-wrapper {
   text-align: center;
   border-radius: 10px;
+margin-top: 30px;
+margin-bottom: 20px;
 }
 .request-appoinemnt-area-main-wrapper .pre {
   border-radius: 30px;
@@ -16131,7 +16177,7 @@ header .rts-btn {
 .main-nav > a.active {
   background: transparent !important;
   color: var(--color-primary) !important;
-}
+} 
 
 .menu-item-open > a {
   color: #5956FF !important;
@@ -16405,6 +16451,7 @@ header .rts-btn {
   width: 207px;
   border-color: rgba(97, 94, 252, 0.2);
   transition: 0.3s;
+
 }
 .swiper-container-h1-team-8 .team-radious-style .thumbnail:hover {
   border-color: var(--color-primary);
@@ -18086,7 +18133,7 @@ li.has-dropdown:hover .submenu {
 .swiper-container-h1 {
   position: relative;
   overflow: hidden;
-  padding-bottom: 64px;
+  padding-bottom: 0px;
 }
 
 .container-custom-testimonials {
@@ -18954,7 +19001,7 @@ li.has-dropdown:hover .submenu {
 
 .copyright-area {
   background: #201F57;
-  padding: 24px 0;
+  padding: 50px 0;
 }
 .copyright-area .copyright-area-inner {
   text-align: center;
@@ -19068,6 +19115,7 @@ li.has-dropdown:hover .submenu {
 }
 .health-package-single-wrapper .rts-btn {
   padding: 15px 35px;
+  
 }
 .health-package-single-wrapper:hover a img {
   transform: scale(1.1);
